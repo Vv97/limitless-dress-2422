@@ -1,0 +1,132 @@
+.login {
+    width: 100%;  
+    display: flex;
+}
+
+
+
+
+
+.login > .login-m{
+    width: 30%;
+    margin: auto;
+}
+
+
+.login > .login-position {
+    width: 50%;
+}
+
+.login-position > img {
+    width: 100%;
+}
+
+
+.login-m > img {
+    width: 160px;
+}
+
+.login-m > h4 {
+    font-size: 17px;
+    color:  #606060;
+    font-weight: 100;
+}
+
+
+.login-m > p {
+    font-size: 11px;
+    color: #606060;
+    padding-bottom: 22px;
+}
+
+
+.login-m > p > a {
+    color: #0033ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login .login-m > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-m> form > label {
+    color: #606060;
+    font-size: 13px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+
+.login-m > form > input  {
+    width: 280px;
+    padding:  4px 10px;
+    border: 1px solid #dddddd;
+    margin-bottom: 22px;
+}
+
+
+.login-m > form > input[type="submit"]{
+    border: none;
+    width: 300px;
+    padding:  13px 16px;
+    background-color: #0033ff;
+    color: white;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.login-m > form > input[type="submit"]:hover{
+   background-color: #3470e4;
+}
+
+.login-m > form > a{
+   width: 280px;
+   border: 1px solid rebeccapurple;
+   padding:  5px 9px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: #6d6d6d;
+   border-radius: 3px;
+}
+
+
+.login-m > form > a:hover {
+    background-color: #f1efea;
+}
+
+
+
+.lo-line {
+    width: 290px;
+    height: 1px;
+    background-color: rgb(213, 213, 213);
+}
+
+
+form > span {
+    font-size: 12px;
+    color: #606060;
+}
+
+
+form > span  {
+  display: flex;
+align-items: center;
+padding-bottom: 25px;
+}
+
+.mid {
+    text-align: center;
+    color: #606060;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+
+
+
