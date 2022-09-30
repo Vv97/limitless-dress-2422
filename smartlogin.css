@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.login-smart {
+    width: 100%;  
+    display: flex;  
+}
+
+.login-smart > .login-s{
+    width: 32%;
+    margin: 25px auto;
+
+}
+
+
+.login-smart > .logins-position {
+    width: 50%;
+}
+
+
+
+.login-s > svg {
+    width: 320px;
+   margin-bottom: 25px;
+   margin-left: 18px;
+}
+
+
+
+
+.login-smart .login-s > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-s> form > label {
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+
+.logins-position > img {
+    width: 100%;
+}
+
+
+
+
+
+.login-s > form > input  {
+    width: 320px;
+    border: 1px solid #dddddd;
+    margin-bottom: 22px;
+    border: none;
+    border-bottom: 1px solid #606060;
+   padding: 0px;
+   outline: none;
+
+}
+
+
+.login-s > form > input[type = "password"]{
+    margin: 0px;
+}
+
+
+.login-s > form > a {
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0033ff;
+}
+
+
+.login-s > form > input[type="submit"]{
+    border: none;
+    width: 340px;
+    padding:  13px 26px;
+    background-color: #0033ff;
+    color: white;
+    border-radius: 2px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+.login-s > form > input[type="submit"]:hover{
+   background-color: #3470e4;
+}
+
+.login-s >form > a:nth-child(7){
+   text-align: center;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 200;
+}
+
+
+form >  p {
+    font-size: 13.5px;
+     text-align: center;
+     color: #606060;
+     font-weight: lighter;
+     line-height: 1.45;
+}
+
+
+form > p > span {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
