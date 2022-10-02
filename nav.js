@@ -2,8 +2,8 @@ window.addEventListener("scroll", () => {
     let nav = document.querySelector("nav")
     nav.classList.toggle("sticky");
     let p = document.querySelectorAll(".nav-links >  li > a")
-    let img = document.querySelector(".logo > img:nth-child(1)")
-    let img1 = document.querySelector(".logo > img:nth-child(2)")
+    let img = document.querySelector(".logo > a:nth-child(1)")
+    let img1 = document.querySelector(".logo > a:nth-child(2)")
     let b = document.querySelectorAll(".nav-button > ul > li >  a");
     let serach = document.querySelector(".n-serach > a")
     let btn = document.querySelector(".nbtn-link > a")

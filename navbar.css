@@ -50,7 +50,7 @@
     height: 32px;
 }
 
-.logo img {
+.logo > a > img {
     width: 162px;
     height: 32px;
 }
@@ -73,7 +73,7 @@
     list-style-type: none;
 }
 
-.logo > img:nth-child(2){
+.logo > a:nth-child(2){
     display: none;
 }
 
@@ -514,12 +514,13 @@
     display: flex;
     width: 89%;
     margin: auto;
-    height: 366px;
+    height: auto;
+    padding-bottom: 40px;
 }
 
 
 .section  > div {
-    width: 44%;
+    width: 43%;
     height: 100%;
     margin: auto;
 }
@@ -531,7 +532,7 @@
 }
 
 .section-img > img{
-    width: 100%;
+    width: 90%;
 }
 
 .sec-text > :nth-child(1){

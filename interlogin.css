@@ -14,7 +14,7 @@
    justify-content: center;
 }
 
-.inter-select > img {
+.inter-select >a> img {
     width: 75%;
 }
 
@@ -86,6 +86,7 @@
     right: 0;
 }
 
-.inter-img img {
+.inter-img >  img {
     width: 600px;
+    border: 1px solid ;
 }
